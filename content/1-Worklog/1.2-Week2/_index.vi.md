@@ -1,59 +1,28 @@
 ---
-title: "Worklog Tuần 2"
-date: 2024-01-01
-weight: 1
+title: "Nhật ký công việc tuần 2"
+date: 2026-07-30
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tham gia phân tích yêu cầu cho phần backend và tầng dữ liệu của ứng dụng.
+* Thiết kế kiến trúc tổng thể của hệ thống, lên kế hoạch cho phần backend và cơ sở dữ liệu trước khi tích hợp với frontend.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các nhiệm vụ cần thực hiện trong tuần này:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 2 | - Xem lại tài liệu yêu cầu dự án, tập trung vào các yêu cầu liên quan đến dữ liệu và backend<br>- Xác định các yêu cầu chức năng và phi chức năng cho tầng API | 08/06/2026 | 08/06/2026 | Internal project documentation |
+| 3 | - Nghiên cứu backend framework và công nghệ cơ sở dữ liệu phù hợp<br>- So sánh các lựa chọn cơ sở dữ liệu được quản lý của AWS (RDS và DynamoDB) cho nhu cầu dự án | 09/06/2026 | 09/06/2026 | https://aws.amazon.com/architecture/ |
+| 4 | - Phác thảo sơ đồ kiến trúc hệ thống, tập trung vào API và luồng dữ liệu giữa backend và cơ sở dữ liệu<br>- Xác định các module/dịch vụ backend chính và lên kế hoạch API contract mà frontend sẽ sử dụng sau này | 10/06/2026 | 10/06/2026 |  |
+| 5 | - Thiết kế sơ đồ cơ sở dữ liệu (ERD)<br>- Xác định các mô hình dữ liệu, mối quan hệ và chiến lược đánh index | 11/06/2026 | 11/06/2026 |  |
+| 6 | - Hoàn thiện tài liệu kiến trúc backend/cơ sở dữ liệu<br>- Trao đổi với mentor/nhóm và thống nhất thứ tự triển khai: backend và cơ sở dữ liệu trước, tích hợp frontend sau | 12/06/2026 | 12/06/2026 |  |
 
+### Thành tích tuần 2:
 
-### Kết quả đạt được tuần 2:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hiểu rõ các yêu cầu liên quan đến backend và dữ liệu của dự án.
+* So sánh các lựa chọn cơ sở dữ liệu của AWS và góp phần chọn ra dịch vụ phù hợp với mô hình dữ liệu của dự án.
+* Đóng góp vào sơ đồ kiến trúc tổng thể của hệ thống, nhấn mạnh vào tầng backend/dữ liệu.
+* Thiết kế sơ đồ cơ sở dữ liệu ban đầu (ERD) và cách đánh index.
+* Thống nhất với nhóm về thứ tự triển khai ưu tiên backend và cơ sở dữ liệu trước khi tích hợp frontend, và hoàn thiện tài liệu kiến trúc theo hướng đó.

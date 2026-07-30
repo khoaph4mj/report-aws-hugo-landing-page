@@ -1,59 +1,28 @@
 ---
-title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+title: "Nhật ký công việc tuần 8"
+date: 2026-07-30
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 8:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Thực hiện kiểm thử toàn diện cho tầng backend và cơ sở dữ liệu.
+* Triển khai các cơ chế xử lý lỗi và ghi log cho các dịch vụ backend.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các nhiệm vụ cần thực hiện trong tuần này:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 2 | - Viết test case cho các API backend<br>&emsp; + Unit test<br>&emsp; + Integration test (API + cơ sở dữ liệu) | 20/07/2026 | 20/07/2026 |  |
+| 3 | - Thực hiện kiểm thử chức năng cho toàn bộ endpoint backend<br>- Ghi nhận và sửa lỗi, bao gồm các trường hợp đặc biệt trong truy vấn cơ sở dữ liệu | 21/07/2026 | 21/07/2026 |  |
+| 4 | - Triển khai xử lý lỗi tập trung trong backend, bao gồm các trường hợp lỗi liên quan đến cơ sở dữ liệu | 22/07/2026 | 22/07/2026 |  |
+| 5 | - Triển khai ghi log<br>&emsp; + Log ứng dụng<br>&emsp; + Log truy vấn/lỗi cơ sở dữ liệu | 23/07/2026 | 23/07/2026 |  |
+| 6 | - Thực hiện kiểm thử hồi quy (regression) cho backend và tích hợp cơ sở dữ liệu<br>- Xác nhận các lỗi đã được sửa cùng nhóm frontend | 24/07/2026 | 24/07/2026 |  |
 
+### Thành tích tuần 8:
 
-### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Viết được test case unit và integration bao phủ các API backend và tương tác với cơ sở dữ liệu.
+* Phát hiện và sửa các lỗi được ghi nhận trong quá trình kiểm thử chức năng, bao gồm một số trường hợp đặc biệt trong truy vấn cơ sở dữ liệu.
+* Triển khai xử lý lỗi tập trung cho backend, bao gồm xử lý rõ ràng các lỗi liên quan đến cơ sở dữ liệu.
+* Thiết lập cơ chế ghi log ứng dụng và log liên quan đến cơ sở dữ liệu.
+* Xác nhận backend và cơ sở dữ liệu ổn định thông qua kiểm thử hồi quy, phối hợp cùng nhóm frontend.

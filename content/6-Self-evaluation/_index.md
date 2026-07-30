@@ -1,39 +1,39 @@
 ---
 title: "Self-Assessment"
-date: 2024-01-01
+date: 2026-07-30
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+During my internship at **First Cloud AI Journey (FCAJ)** from **01/06/2026** to **14/08/2026**, I had the opportunity to experience a professional working environment and apply my academic knowledge to a real-world software project.
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+Throughout the internship, I participated in developing a web application on the **AWS Cloud platform**. My tasks included studying system requirements, implementing application features, integrating databases, deploying services, testing system performance, and preparing technical documentation.
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+This internship helped me improve my knowledge of **cloud computing, web application development, AWS services, and software engineering practices**. Besides technical skills, I also developed important soft skills such as teamwork, communication, problem-solving, and adapting to new technologies.
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+During the working process, I always tried to complete assigned tasks responsibly, actively learn from mentors and teammates, and improve my working methods based on received feedback.
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+The following table shows my self-assessment during the internship period:
 
-### Needs Improvement
+| No. | Criteria | Description | Good | Fair | Average |
+| --- | --- | --- | --- | --- | --- |
+| 1 | **Technical knowledge** | Understanding of programming, cloud computing, and technologies used in the project | ✅ | ☐ | ☐ |
+| 2 | **Learning ability** | Ability to approach and apply new technologies and tools | ☐ | ✅ | ☐ |
+| 3 | **Self-learning** | Ability to research information and solve problems independently | ✅ | ☐ | ☐ |
+| 4 | **Responsibility** | Commitment to assigned tasks and maintaining work quality | ✅ | ☐ | ☐ |
+| 5 | **Time management** | Ability to organize tasks and complete work according to schedule | ☐ | ✅ | ☐ |
+| 6 | **Adaptability** | Ability to adjust to new environments and changing requirements | ✅ | ☐ | ☐ |
+| 7 | **Communication skills** | Ability to discuss, report progress, and explain technical issues | ☐ | ✅ | ☐ |
+| 8 | **Teamwork** | Cooperation and support with teammates during project development | ✅ | ☐ | ☐ |
+| 9 | **Professional attitude** | Following working rules and maintaining a positive attitude | ✅ | ☐ | ☐ |
+| 10 | **Problem-solving skills** | Ability to analyze issues and find suitable solutions | ☐ | ✅ | ☐ |
+| 11 | **Project contribution** | Contribution to assigned features and project completion | ✅ | ☐ | ☐ |
+| 12 | **Overall performance** | General evaluation of internship results | ✅ | ☐ | ☐ |
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+### Areas for Improvement
+
+* Improve my ability to estimate task completion time when working with unfamiliar technologies.
+* Practice presenting technical ideas more clearly and effectively during discussions.
+* Spend more time analyzing possible problems before implementation to reduce unexpected errors.
+* Continue improving my knowledge of AWS architecture and software development practices.
